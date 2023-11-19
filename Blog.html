@@ -1,0 +1,430 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mansour Taleb - Développer WEB</title>
+    <meta name="description" content="Portfolio de Mansour Taleb - Développer Web">
+    <link rel="shotrcut icon" href="./img/Logo.png" type="image/x-icon">
+
+</head>
+<body>
+    <!--
+    Header
+        logo
+        menu
+        social
+        burger
+        
+    Héro
+        left
+        right
+    about
+        right
+        left
+    Services 
+        Skills
+        portfolio
+        contact       
+    Footer
+
+    -->
+<header class="header">
+    <div class="container">
+        <div class="logo">
+            Mansour Taleb
+        </div>  
+        <nav class="navbar">
+            <ul class="menu list-unstyled">
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="About.html">A propos</a></li>
+                <li><a href="Service.html">Services</a></li>
+                <li><a href="skills.html">Compétences</a></li>
+                <li><a href="Portfolio.html">Porfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="right">
+            <ul class="social list-unstyled">
+                <li><a href="https://www.facebook.com/cabiste.taleb/" target="_blank">
+                    
+<svg width="18" height="18" class="icon facebook" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+                </a>Facebook</li>
+                <li><a href="https://www.instagram.com/mansour_talebbb/" target="_blank">
+                    
+<svg width="18" height="18" class="icon instagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                </a>Instagram</li>
+                <li><a href="https://www.linkedin.com/in/mohamed-mansour-taleb-0200b3291/" target="_blank">
+                    
+<svg width="18" height="18" class="icon linkdin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                </a>linkedin</li>
+            </ul>
+            <button class="burger"><span class="bar">-</span></button>
+        </div>
+      </div>
+</header>
+<section class="hero">
+    <div class="container">
+        <div class="grid">
+            <div class="hero__item left">
+                <h1 class="title">Hello, je suis Mansour Taleb de Bizerte</h1>
+                <p>Etudiant en 1èr année cycle d'ingénieur en Informatique</p>
+            </div>
+            <div class="hero__item right">
+                <div class="hero__avatar">
+                    <img width="300" height="300" src="./img/Avatar.png" alt="Avatar">
+                </div>
+
+        </div>
+    </div>
+</section>
+<section id="about" class="about">
+    <div class="container">
+        <div class="grid">
+            <div class="grid__item">
+                <img width="300" height="300" src="./img/Mansour.png" alt="Mansour Taleb">
+            </div>
+            <div class="grid__item">
+                <h2 class="section-title">A propos</h2>
+                <h3>Qui suis je </h3>
+                <p>Je suis une personne en constante évolution. J'apprends et je grandis chaque jour, et je deviens une meilleure personne.</p>
+                
+<ul>
+    <li>Liste</li>
+    <li>Liste</li>
+    <li>Liste</li>
+    <li>Liste</li>
+</ul>
+
+        </div>
+    </div>
+</section>
+<section id="services" class="services">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Mes services</h2> 
+            <p>Lorem ipsum dolorsm eit doloriiae, perferendis eius at </p>
+
+        </div>
+<div class="grid">
+    <div class="grid__item">
+        <div class="services">
+            <div class="services__icon">
+                
+<svg widht="100" height="100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M272 384c9.6-31.9 29.5-59.1 49.2-86.2l0 0c5.2-7.1 10.4-14.2 15.4-21.4c19.8-28.5 31.4-63 31.4-100.3C368 78.8 289.2 0 192 0S16 78.8 16 176c0 37.3 11.6 71.9 31.4 100.3c5 7.2 10.2 14.3 15.4 21.4l0 0c19.8 27.1 39.7 54.4 49.2 86.2H272zM192 512c44.2 0 80-35.8 80-80V416H112v16c0 44.2 35.8 80 80 80zM112 176c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-61.9 50.1-112 112-112c8.8 0 16 7.2 16 16s-7.2 16-16 16c-44.2 0-80 35.8-80 80z"/></svg>
+            </div>
+            <div class="services_content">
+                <h3>Gestion de projet</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adip alias!</p>
+            </div>
+
+        </div>
+        <div class="services">
+            <div class="services__icon">
+                
+<svg  widht="100" height="100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M471.6 21.7c-21.9-21.9-57.3-21.9-79.2 0L362.3 51.7l97.9 97.9 30.1-30.1c21.9-21.9 21.9-57.3 0-79.2L471.6 21.7zm-299.2 220c-6.1 6.1-10.8 13.6-13.5 21.9l-29.6 88.8c-2.9 8.6-.6 18.1 5.8 24.6s15.9 8.7 24.6 5.8l88.8-29.6c8.2-2.7 15.7-7.4 21.9-13.5L437.7 172.3 339.7 74.3 172.4 241.7zM96 64C43 64 0 107 0 160V416c0 53 43 96 96 96H352c53 0 96-43 96-96V320c0-17.7-14.3-32-32-32s-32 14.3-32 32v96c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H96z"/></svg>
+            </div>
+            <div class="services_content">
+<h3>Integration Web</h3>
+<p>Lorem ipsum dolor sit amet consectetur adip alias!</p>
+            </div>
+
+        </div>        <div class="services">
+            <div class="services__icon">
+                
+<svg widht="100" height="100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M78.6 5C69.1-2.4 55.6-1.5 47 7L7 47c-8.5 8.5-9.4 22-2.1 31.6l80 104c4.5 5.9 11.6 9.4 19 9.4h54.1l109 109c-14.7 29-10 65.4 14.3 89.6l112 112c12.5 12.5 32.8 12.5 45.3 0l64-64c12.5-12.5 12.5-32.8 0-45.3l-112-112c-24.2-24.2-60.6-29-89.6-14.3l-109-109V104c0-7.5-3.5-14.5-9.4-19L78.6 5zM19.9 396.1C7.2 408.8 0 426.1 0 444.1C0 481.6 30.4 512 67.9 512c18 0 35.3-7.2 48-19.9L233.7 374.3c-7.8-20.9-9-43.6-3.6-65.1l-61.7-61.7L19.9 396.1zM512 144c0-10.5-1.1-20.7-3.2-30.5c-2.4-11.2-16.1-14.1-24.2-6l-63.9 63.9c-3 3-7.1 4.7-11.3 4.7H352c-8.8 0-16-7.2-16-16V102.6c0-4.2 1.7-8.3 4.7-11.3l63.9-63.9c8.1-8.1 5.2-21.8-6-24.2C388.7 1.1 378.5 0 368 0C288.5 0 224 64.5 224 144l0 .8 85.3 85.3c36-9.1 75.8 .5 104 28.7L429 274.5c49-23 83-72.8 83-130.5zM56 432a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/></svg>
+            </div>
+            <div class="services_content">
+                <h3>Développement spécifique</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adip alias!</p>
+            </div>
+
+        </div>        <div class="services">
+            <div class="services__icon">
+                
+<svg  widht="100" height="100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM337 209L209 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L303 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>
+            </div>
+            <div class="services_content">
+                <h3>Références naturel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adip alias!</p>
+            </div>
+
+        </div>       
+
+    </div>
+
+    <div class="grid__item">
+        <div class="services">
+            <div class="services__icon">
+                
+<svg  widht="100" height="100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M410.3 231l11.3-11.3-33.9-33.9-62.1-62.1L291.7 89.8l-11.3 11.3-22.6 22.6L58.6 322.9c-10.4 10.4-18 23.3-22.2 37.4L1 480.7c-2.5 8.4-.2 17.5 6.1 23.7s15.3 8.5 23.7 6.1l120.3-35.4c14.1-4.2 27-11.8 37.4-22.2L387.7 253.7 410.3 231zM160 399.4l-9.1 22.7c-4 3.1-8.5 5.4-13.3 6.9L59.4 452l23-78.1c1.4-4.9 3.8-9.4 6.9-13.3l22.7-9.1v32c0 8.8 7.2 16 16 16h32zM362.7 18.7L348.3 33.2 325.7 55.8 314.3 67.1l33.9 33.9 62.1 62.1 33.9 33.9 11.3-11.3 22.6-22.6 14.5-14.5c25-25 25-65.5 0-90.5L453.3 18.7c-25-25-65.5-25-90.5 0zm-47.4 168l-144 144c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l144-144c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z"/></svg>
+            </div>
+            <div class="services_content">
+                <h3>Conception Graphique & designweb</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adip alias!</p>
+            </div>
+
+        </div>
+        <div class="services">
+            <div class="services__icon">
+                
+<svg  widht="100" height="100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M142.9 142.9c62.2-62.2 162.7-62.5 225.3-1L327 183c-6.9 6.9-8.9 17.2-5.2 26.2s12.5 14.8 22.2 14.8H463.5c0 0 0 0 0 0H472c13.3 0 24-10.7 24-24V72c0-9.7-5.8-18.5-14.8-22.2s-19.3-1.7-26.2 5.2L413.4 96.6c-87.6-86.5-228.7-86.2-315.8 1C73.2 122 55.6 150.7 44.8 181.4c-5.9 16.7 2.9 34.9 19.5 40.8s34.9-2.9 40.8-19.5c7.7-21.8 20.2-42.3 37.8-59.8zM16 312v7.6 .7V440c0 9.7 5.8 18.5 14.8 22.2s19.3 1.7 26.2-5.2l41.6-41.6c87.6 86.5 228.7 86.2 315.8-1c24.4-24.4 42.1-53.1 52.9-83.7c5.9-16.7-2.9-34.9-19.5-40.8s-34.9 2.9-40.8 19.5c-7.7 21.8-20.2 42.3-37.8 59.8c-62.2 62.2-162.7 62.5-225.3 1L185 329c6.9-6.9 8.9-17.2 5.2-26.2s-12.5-14.8-22.2-14.8H48.4h-.7H40c-13.3 0-24 10.7-24 24z"/></svg>
+            </div>
+            <div class="services_content">
+                <h3>Dynamisme des pages</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adip alias!</p>
+            </div>
+
+        </div>       
+         <div class="services">
+            <div class="services__icon">
+                
+<svg  widht="100" height="100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
+            </div>
+            <div class="services_content">
+                <h3>Intreface d'administration</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adip alias!</p>
+            </div>
+
+        </div>       
+         <div class="services">
+            <div class="services__icon">
+                
+<svg  widht="100" height="100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M80 0C44.7 0 16 28.7 16 64V448c0 35.3 28.7 64 64 64H304c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H80zm80 432h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H160c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>
+            </div>
+            <div class="services_content">
+                <h3>Responsive Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adip alias!</p>
+            </div>
+
+        </div>       
+
+
+</div>
+    </div>
+</section>
+<section id="skills" class="skills">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Mes compétences</h2>            <p>Lorem ipsum dolorsm eit doloriiae, perferendis eius at </p>
+
+        </div>
+<div class="grid">
+    <div class="grid__item">
+        <h3>Domaine de compétences </h3>
+        <ul class="list-unstyled">
+            <li>
+                <h4>Compétence</h4>
+                <p>Description de la compétence</p>  
+          </li>
+          <li>
+            <h4>Compétence</h4>
+            <p>Description de la compétence</p>  
+      </li>
+    <li>
+        <h4>Compétence</h4>
+        <p>Description de la compétence</p>  
+  </li>
+  <li>
+            <h4>Compétence</h4>
+             <p>Description de la compétence</p>  
+</li>
+<li>
+            <h4>Compétence</h4>
+            <p>Description de la compétence</p>  
+</li>
+        </ul>
+
+    </div>
+    <div class="grid__item">
+        <h3>Compétences en Développement</h3>
+        <div class="progressbar">
+            <div class="bar">HTML</div>
+        </div>
+        <div class="progressbar">
+            <div class="bar">CSS</div>
+        </div>
+        <div class="progressbar">
+            <div class="bar">JAVASCRIPT</div>
+        </div>
+        <div class="progressbar">
+            <div class="bar">PHP</div>
+        </div>
+        <div class="progressbar">
+            <div class="bar">NODE</div>
+        </div>
+        <div class="progressbar">
+            <div class="bar">REACT</div>
+        </div>
+        <h3>Compétences en conception Graphique</h3>
+        <div class="progressbar">
+            <div class="bar">PHOTOSHOP</div>
+        </div>
+        <div class="progressbar">
+            <div class="bar">ILLUSTRATOR</div>
+        </div>
+        <div class="progressbar">
+            <div class="bar">FIGMA</div>
+        </div>
+        <div class="progressbar">
+            <div class="bar">AFTEREFFECT</div>
+        </div>
+
+
+    </div>
+    </div>
+    </div>
+    
+    
+   
+
+</section>
+<section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio</h2> 
+                <p>Lorem ipsum dolorsm eit doloriiae, perferendis eius at </p>
+    
+            </div>
+    <ul class="grid portfolio-filters list-unstyled">
+        <li class="grid__item">
+            <a href="#">Tous les projets</a>
+            </li>
+            <li class="grid__item">
+             <a href="#">Développement web</a>
+        </li>
+          <li class="grid__item">
+         <a href="#">Refonte graphique</a>
+      </li>
+        <li class="grid__item">
+         <a href="#">Application</a>
+         </li>
+            </ul>
+            <div class="grid">
+                <div class="grid__item">
+                    <div class="card">
+                        <img src="https://picsum.photos/600/400?random=1" alt="Projet de la ville" class="card__image">
+                        <div class="card__inner">
+                            <h3 class="card__title">Titre de projet</h3>
+                            <p class="categroy">Développement web</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#">+</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="grid__item">
+                    <div class="card">
+                        <img src="https://picsum.photos/600/400?random=2" alt="Projet de la ville" class="card__image">
+                        <div class="card__inner">
+                            <h3 class="card__title">Titre de projet</h3>
+                            <p class="categroy">Développement web</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#">+</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="grid__item">
+                    <div class="card">
+                        <img src="https://picsum.photos/600/400?random=3" alt="Projet de la ville" class="card__image">
+                        <div class="card__inner">
+                            <h3 class="card__title">Titre de projet</h3>
+                            <p class="categroy">Application</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#">+</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="grid__item">
+                    <div class="card">
+                        <img src="https://picsum.photos/600/400?random=4" alt="Projet de la ville" class="card__image">
+                        <div class="card__inner">
+                            <h3 class="card__title">Titre de projet</h3>
+                            <p class="categroy">Refonte graphique</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#">+</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+
+
+
+
+
+    
+</section>
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Contact</h2> 
+            <p>Lorem ipsum dolor sit amet hvefhjhjeqbbjh</p>
+            </div>
+            <form action="contact.php" class="form">
+                <label for="firstname">
+                <input type="text" name="firstname" id="firstname" placeholder="Nom">
+                </label>
+                <label for="lastname">
+                    <input type="text" name="lastname" id="lastname" placeholder="Prénom">
+                    </label>
+                    <label for="email">
+                        <input type="email" name="firstname" id="firstname" placeholder="Email">
+                        </label>
+                        <textarea name="message" id="message" placeholder="Message" ></textarea>
+            <input type="submit" value="Envoyer">
+
+            </form>
+            </div>
+   
+</section>
+<footer>
+    <div class="container">
+        <div class="grid">
+            <div class="grid__item">
+                <p>Mansour Taleb</p>
+            </div>
+            <div class="grid__item">
+                <ul class="menu list-unstyled">
+                    <li><a href="index.html">Acceuil</a></li>
+                    <li><a href="#about">A propos</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#portfolio">Porfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="right">
+                <ul class="social list-unstyled">
+                    <li><a href="https://www.facebook.com/cabiste.taleb/" target="_blank">
+                        
+    <svg width="18" height="18" class="icon facebook" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+                    </a>Facebook</li>
+                    <li><a href="https://www.instagram.com/mansour_talebbb/" target="_blank">
+                        
+    <svg width="18" height="18" class="icon instagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                    </a>Instagram</li>
+                    <li><a href="https://www.linkedin.com/in/mohamed-mansour-taleb-0200b3291/" target="_blank">
+                        
+    <svg width="18" height="18" class="icon linkdin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                    </a>linkedin</li>
+                </ul>
+            </div>
+            <div class="grid__item">
+                <p>Copyright 2023 Mansour Taleb. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
