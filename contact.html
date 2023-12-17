@@ -1,23 +1,29 @@
 <section id="contact" class="contact">
+    <link rel="stylesheet" href="global.css">
+
     <div class="container">
         <div class="section-header">
-            <h2 class="section-title">Contact</h2> 
-            <p>Lorem ipsum dolor sit amet hvefhjhjeqbbjh</p>
-            </div>
-            <form action="contact.php" class="form">
-                <label for="firstname">
-                <input type="text" name="firstname" id="firstname" placeholder="Nom">
-                </label>
-                <label for="lastname">
-                    <input type="text" name="lastname" id="lastname" placeholder="Prénom">
-                    </label>
-                    <label for="email">
-                        <input type="email" name="firstname" id="firstname" placeholder="Email">
-                        </label>
-                        <textarea name="message" id="message" placeholder="Message" ></textarea>
-            <input type="submit" value="Envoyer">
+            <h2 class="section-title">Contact</h2>
+            <p>Je suis ouvert aux collaborations, discussions ou opportunités professionnelles. N'hésitez pas à me contacter par e-mail à "mohamedmansour.taleb@esprit.tn" pour toute demande ou question. Je suis également disponible sur "Facebook" et "Instagram" pour échanger et partager des idées. Je suis impatient de discuter de projets passionnants et de nouvelles possibilités de collaboration.</p>
+        </div>
+        <form id="myForm">
+    <label for="firstname">
+        <input type="text" name="firstname" id="firstname" placeholder="Nom">
+        <span class="error" id="firstNameError"></span> <!-- Message d'erreur pour le nom -->
+    </label>
+    <label for="lastname">
+        <input type="text" name="lastname" id="lastname" placeholder="Prénom">
+        <span class="error" id="lastNameError"></span> <!-- Message d'erreur pour le prénom -->
+    </label>
+    <label for="email">
+        <input type="email" name="email" id="email" placeholder="Email">
+        <span class="error" id="emailError"></span> <!-- Message d'erreur pour l'e-mail -->
+    </label>
+    <textarea name="message" id="message" placeholder="Message"></textarea>
+    <span class="error" id="messageError"></span> <!-- Message d'erreur pour le message -->
+    <input type="submit" value="Valider">
+</form>
 
-            </form>
-            </div>
-   
+        <script src="validation.js"></script> <!-- Assurez-vous que le chemin vers votre fichier JS est correct -->
+    </div>
 </section>
